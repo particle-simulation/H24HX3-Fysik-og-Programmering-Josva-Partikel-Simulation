@@ -1,3 +1,5 @@
+import g4p_controls.GEvent;
+import g4p_controls.GPanel;
 import g4p_controls.GCScheme;
 import g4p_controls.G4P;
 import android.content.Context;
@@ -25,6 +27,7 @@ void setup() {
 
 void draw() {
   background(50);
+  createGUI();
   
 }
 
