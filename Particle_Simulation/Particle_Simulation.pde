@@ -1,4 +1,3 @@
-GUI gui; 
 import android.content.Context;
 import android.hardware.Sensor;
 import android.hardware.SensorManager;
@@ -9,10 +8,12 @@ Context context;
 SensorManager manager;
 Sensor sensor;
 AccelerometerListener listener;
+GUI gui; //declare GUI
 
 void setup() {
   fullScreen();
   orientation(LANDSCAPE);
+  gui=new GUI(); //initiate GUI class
   
   context = getActivity();
   manager = (SensorManager)context.getSystemService(Context.SENSOR_SERVICE);
@@ -23,8 +24,8 @@ void setup() {
 
 
 void draw() {
-  background(50);
-  gui.drawGUI();
+  background(0);
+  gui.drawGUI(); //draws GUI class on screen
 }
 
 class AccelerometerListener implements SensorEventListener {
