@@ -1,7 +1,8 @@
-class gui {
+class GUI {
   //Attributes
   
   //Constructor
   //Methods
-  
+  void drawGUI(){
+  }
 }

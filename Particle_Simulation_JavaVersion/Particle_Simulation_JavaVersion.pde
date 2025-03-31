@@ -1,10 +1,16 @@
-import g4p_controls.GCScheme;
-import g4p_controls.G4P;
+GUI gui; //declare GUI
 
 void setup() {
   fullScreen();
-  background(25);
-  createGUI();
+  frameRate(60);
+  //orientation(LANDSCAPE);
+  gui=new GUI(); //initiate GUI class
+  
+
 }
+
+
 void draw() {
+  background(0);
+  gui.drawGUI(); //draws GUI class on screen
 }

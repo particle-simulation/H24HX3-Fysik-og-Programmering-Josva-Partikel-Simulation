@@ -1,4 +1,4 @@
-
+GUI gui; 
 import android.content.Context;
 import android.hardware.Sensor;
 import android.hardware.SensorManager;
@@ -24,7 +24,7 @@ void setup() {
 
 void draw() {
   background(50);
-  
+  gui.drawGUI();
 }
 
 class AccelerometerListener implements SensorEventListener {
