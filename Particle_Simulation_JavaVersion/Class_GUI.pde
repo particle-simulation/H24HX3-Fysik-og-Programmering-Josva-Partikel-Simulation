@@ -2,8 +2,8 @@ class GUI { //static GUI elements
   //Attributes
   int settingsWindowHeight = 800;
    int settingsWindowWidth = 990;
-  Slider slider1 = new Slider(settingsWindowWidth/2-350,settingsWindowHeight-500);
-  Slider slider2 = new Slider(settingsWindowWidth/2-350,settingsWindowHeight-300);
+  Slider slider1 = new Slider(settingsWindowWidth/2-350,settingsWindowHeight,"Tyngdekraft");
+  Slider slider2 = new Slider(settingsWindowWidth/2-350,settingsWindowHeight-175,"Partikler");
   //Constructor
   //Methods
   void drawGUI(){
