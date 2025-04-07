@@ -49,7 +49,7 @@ class Slider {
 
   // Convert slider position to a value between 0-100
   int getValue() {
-    return int(map(sliderPos.x, pos.x, pos.x + laengde - 30, 0, 101));
+    return int(map(sliderPos.x, pos.x, pos.x + laengde - 30, 0, 11));
   }
 
   // Check if mouse is over the slider

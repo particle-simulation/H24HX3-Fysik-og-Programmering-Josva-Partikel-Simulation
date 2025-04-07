@@ -16,6 +16,7 @@ void draw() {
   gui.drawGUI(); //draws GUI class on screen
   println("Slider1 Value: " + gui.slider1.getValue());
   println("Slider2 Value: " + gui.slider2.getValue());
+  
 }
 
 void mousePressed() {
