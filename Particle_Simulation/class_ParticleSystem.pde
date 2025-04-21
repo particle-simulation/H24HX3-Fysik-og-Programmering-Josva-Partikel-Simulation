@@ -1,4 +1,4 @@
-class Particles{
+class ParticleSystem{
  //Attributes
  
  //Constructor
