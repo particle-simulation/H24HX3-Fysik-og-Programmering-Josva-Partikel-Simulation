@@ -62,7 +62,7 @@ void draw() {
 class AccelerometerListener implements SensorEventListener {
   public void onSensorChanged(SensorEvent event) {
     // Android landscape: event.values[0] = left-right, [1] = up-down, [2] = Z
-    gravityDirection.set(event.values[0], -event.values[1]); // Invert X because phone is in landscape
+    gravityDirection.set(event.values[1], event.values[0]); // Invert X because phone is in landscape
     gravityDirection.normalize();
   }
 
