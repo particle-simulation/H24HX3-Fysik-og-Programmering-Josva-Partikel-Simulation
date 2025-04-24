@@ -1,4 +1,4 @@
-class Particle {
+class Particle { //Ref. ChatGPT
   // Position of the particle in 2D space
   PVector position;
   

@@ -1,4 +1,4 @@
-class ParticleSystem {
+class ParticleSystem { //Ref. ChatGPT
   // Array to hold all the particles in the system
   Particle[] particles;
 
